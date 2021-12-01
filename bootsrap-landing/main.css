@@ -1,0 +1,142 @@
+body {
+	font-family: 'Lato', serif;
+}
+
+.headline {
+	font-size: 60pt;
+}
+
+h1,h3,h4,h5,h6 {
+	color: #252B42;
+}
+
+h2,h7 {
+	color: #96BB7C;
+}
+
+.margin70 {
+	margin: 70px 0;
+}
+
+.sub-headline {
+
+	color: grey;
+	font-size: 20pt;
+}
+
+.big-img {
+	width: 100%;
+}
+
+.big-img {
+	background-image: url("img/Rectangle 9.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.btn-success {
+	border-color: #96BB7C;
+	background-color: #96BB7C;
+}
+
+.btn-outline-success {
+	border: 2px solid #96BB7C;
+}
+
+.right {
+	float: right;
+}
+
+input {
+	height: 58px;
+	background-color: #F9F9F9 !important;
+}
+
+textarea {
+	background-color: #F9F9F9 !important;
+}
+
+.animated {
+    animation: t-arrow-bottom 1.2s infinite ease;
+}
+
+@-webkit-keyframes t-arrow-bottom {
+ 0% {
+  -moz-transform:translateY(0);
+  -ms-transform:translateY(0);
+  -webkit-transform:translateY(0);
+  -o-transform:translateY(0);
+  transform:translateY(0)
+ }
+ 50% {
+  -moz-transform:translateY(-7px);
+  -ms-transform:translateY(-7px);
+  -webkit-transform:translateY(-7px);
+  -o-transform:translateY(-7px);
+  transform:translateY(-7px)
+ }
+ 55% {
+  -moz-transform:translateY(-7px);
+  -ms-transform:translateY(-7px);
+  -webkit-transform:translateY(-7px);
+  -o-transform:translateY(-7px);
+  transform:translateY(-7px)
+ }
+ 100% {
+  -moz-transform:translateY(0);
+  -ms-transform:translateY(0);
+  -webkit-transform:translateY(0);
+  -o-transform:translateY(0);
+  transform:translateY(0)
+ }
+}
+@keyframes t-arrow-bottom {
+ 0% {
+  -moz-transform:translateY(0);
+  -ms-transform:translateY(0);
+  -webkit-transform:translateY(0);
+  -o-transform:translateY(0);
+  transform:translateY(0)
+ }
+ 50% {
+  -moz-transform:translateY(-7px);
+  -ms-transform:translateY(-7px);
+  -webkit-transform:translateY(-7px);
+  -o-transform:translateY(-7px);
+  transform:translateY(-7px)
+ }
+ 55% {
+  -moz-transform:translateY(-7px);
+  -ms-transform:translateY(-7px);
+  -webkit-transform:translateY(-7px);
+  -o-transform:translateY(-7px);
+  transform:translateY(-7px)
+ }
+ 100% {
+  -moz-transform:translateY(0);
+  -ms-transform:translateY(0);
+  -webkit-transform:translateY(0);
+  -o-transform:translateY(0);
+  transform:translateY(0)
+ }
+}
+
+.rating-result {
+    width: 265px;
+    margin: 0 auto;
+}
+.rating-result span {
+    padding: 0;
+    font-size: 32px;
+    margin: 0 3px;
+    line-height: 1;
+    color: lightgrey;
+    text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+    content: '★';
+}
+.rating-result > span.active {
+    color: gold;
+}
