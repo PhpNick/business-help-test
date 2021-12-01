@@ -10,6 +10,14 @@
 
 # Результат
 
+## Готовая страница на GitHub Pages
+
+[Готовая страница на GitHub Pages](https://phpnick.github.io/business-help-test/bootsrap-landing/)
+
+## Код в GitHub репозитории
+
+[Код в GitHub репозитории](https://github.com/PhpNick/business-help-test/tree/main/bootsrap-landing)
+
 # ЗАДАНИЕ 2. Backend-модуль
 
 Есть схема базы данных для сайта объявлений, похожего на Avito, со следующими сущностями:
